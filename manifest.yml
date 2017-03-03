@@ -1,0 +1,13 @@
+---
+declared-services:
+  mean-mongo:
+    label: mongodb
+    plan: 100
+applications:
+- name: totaljs
+  host: sklep-${random-word}
+  memory: 512M
+  services:
+  - mean-mongo
+  env:
+    NODE_ENV: cloud-foundry
