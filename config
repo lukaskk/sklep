@@ -13,8 +13,8 @@ mail.smtp                 : YOUR.SMTPSERVER.COM
 // mail.smtp.options         : {"user":"","password":"","timeout":2000}
 
 // Gmail SMTP settings
-// mail.smtp                : smtp.gmail.com
-// mail.smtp.options        : {"port":465,"secure":true,"user":"ENTER_YOUR_EMAIL","password":"ENTER_YOUR_PASSWORD","rejectUnauthorized":true}
+ mail.smtp                : smtp.gmail.com
+ mail.smtp.options        : {"port":465,"secure":true,"user":"praca.jskserwis@gmail.com","password":"zxcvbnm0","rejectUnauthorized":true}
 
 // Office365 SMTP settings
 // mail.smtp                : smtp.office365.com
@@ -23,6 +23,8 @@ mail.smtp                 : YOUR.SMTPSERVER.COM
 // Image convertor for resizing of pictures
 // Default image converter: im = ImageMagick, gm = GraphicsMagick
 default-image-converter   : gm
-
+default-ip                     : auto
+default-port                   : auto
+default-image-converter        : im
 // Default theme
 default-theme             : default

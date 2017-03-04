@@ -1,5 +1,5 @@
 // Total.js translation file
-// Created: 2017-03-03 14:34
+// Created: 2017-03-03 20:59
 
 // sitemap
 T-420727794      : Homepage
